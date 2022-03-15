@@ -18,27 +18,35 @@ body{
     text-align: center;
     font-family: 'Dancing Script';
     font-size: 40px;
+<<<<<<< Updated upstream
+    padding: 0px;
+    margin: 0px;
+=======
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+>>>>>>> Stashed changes
     background-color: var(--darkgray);
 }
-.nav-main{
+.second-nav{
     overflow: hidden;
     background-color: var(--darkgray);
+<<<<<<< Updated upstream
+=======
     margin-bottom: 2em;
+>>>>>>> Stashed changes
 }
-.nav-main li{
+.second-nav li{
     display: inline;
     height: 2em;
     font-size: 25px;
     font-family: 'Fredoka', sans-serif;
 }
-.nav-main ul {
+.second-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  .nav-main a {
+  .second-nav a {
       float: left;
     text-decoration: none;
     color: white;
@@ -46,7 +54,7 @@ body{
     text-transform: capitalize;
     text-align: center;
 }
-.nav-main ul :hover{
+.second-nav ul :hover{
 color: black;
 }
 .main-footer{
@@ -55,4 +63,19 @@ color: black;
     color: white;
     font-size: 30px;
     background-color: var(--darkgray);
+<<<<<<< Updated upstream
+}
+.main-article{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+.main-article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.main-article h1{
+    font-size: 30px;
+=======
+>>>>>>> Stashed changes
 }
