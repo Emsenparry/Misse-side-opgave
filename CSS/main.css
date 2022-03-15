@@ -1,0 +1,50 @@
+/* Dancing Scripts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Neonderthaw&display=swap');
+/* Fredoka */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root {
+    --gray: #999999;
+    --lightgray: #B2B2B2;
+    --darkgray: #676767;
+}
+
+body{
+    background-color: var(--lightgray);
+}
+/* Header and Nav */
+.main-header{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--darkgray);
+}
+.nav-main{
+    overflow: hidden;
+    background-color: var(--darkgray);
+}
+.nav-main li{
+    display: inline;
+    height: 2em;
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+}
+.nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-main a {
+      float: left;
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.nav-main ul :hover{
+color: black;
+}
